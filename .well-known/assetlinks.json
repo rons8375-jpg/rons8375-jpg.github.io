@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "io.github.rons8375jpg.masterskaya",
+        "sha256_cert_fingerprints": ["CA:66:C3:15:B5:4C:55:FA:E2:F4:38:B1:97:B6:15:6F:C3:0E:58:99:D7:CF:66:31:6B:B4:2A:22:DB:36:F0:64"]
+      }
+    }]
