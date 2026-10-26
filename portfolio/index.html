@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta property="og:title" content="Артём Карлов — growth-маркетолог">
+<meta property="og:description" content="6 кейсов: ×2,9 оборота, +73% к чеку, +130% продаж в неделю акции.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#0B0C0E">
+<title>Артём Карлов — портфолио</title>
+<meta name="description" content="Growth-маркетолог Артём Карлов: кейсы роста малого бизнеса и запуски с нуля.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+:root{
+  --bg:#0B0C0E; --s:#141619; --s2:#1B1E22; --line:#2A2E34;
+  --t:#F1F1EC; --t2:#C9CCD1; --m:#878D96;
+  --a:#C8FF2E; --a-ink:#0B0C0E; --a2:#5B6CFF; --a2t:#9AA6FF; --w:#FFB45C;
+  --f-d:"Unbounded","Inter",system-ui,sans-serif;
+  --f-b:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --f-m:"JetBrains Mono",ui-monospace,Consolas,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{margin:0}
+img{max-width:100%}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{background:var(--bg);color:var(--t);font-family:var(--f-b);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--a);outline-offset:3px;border-radius:6px}
+.mono{font-family:var(--f-m);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--m)}
+.dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--a);margin-right:8px;box-shadow:0 0 12px var(--a);vertical-align:1px}
+.top{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-block:22px 14px;border-bottom:1px solid var(--line)}
+.hero{display:grid;gap:28px;padding-block:44px 8px}
+h1{font-family:var(--f-d);font-weight:700;font-size:clamp(46px,9vw,96px);line-height:.95;letter-spacing:-.02em;margin:0}
+h1 span{color:var(--a)}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{font-size:13px;padding:6px 12px;border-radius:99px;border:1px solid var(--line);color:var(--t2)}
+.chip.on{background:var(--a);border-color:var(--a);color:var(--a-ink);font-weight:600}
+.cta{display:flex;gap:10px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:8px;font:600 15px var(--f-b);padding:12px 18px;border-radius:12px;border:1px solid var(--line);background:var(--s);color:var(--t);text-decoration:none;cursor:pointer}
+.btn:hover{border-color:var(--m)}
+.btn.pri{background:var(--a);border-color:var(--a);color:var(--a-ink)}
+.btn.pri:hover{filter:brightness(1.06)}
+.kpis{display:grid;grid-template-columns:1.5fr 1fr;gap:12px;margin-top:8px}
+.kpis .side{display:grid;gap:12px}
+.tile{background:var(--s);border:1px solid var(--line);border-radius:18px;padding:20px 22px;min-width:0}
+.tile.big{background:linear-gradient(160deg,#1A1F12,var(--s) 55%);border-color:#3A4A16;position:relative;overflow:hidden;display:flex;flex-direction:column}
+.num{font-family:var(--f-d);font-weight:700;letter-spacing:-.03em;line-height:1;font-variant-numeric:tabular-nums}
+.big .num{font-size:clamp(84px,14vw,148px);color:var(--a);margin-top:14px}
+.side .num{font-size:clamp(38px,5vw,52px);margin-top:10px}
+.cap{font-size:14px;color:var(--t2);margin-top:8px}
+.cap b{color:var(--t)}
+.spark{display:block;width:100%;height:70px;margin-top:auto;padding-top:18px}
+.about{display:grid;grid-template-columns:1.25fr 1fr;gap:12px;margin-top:12px}
+.about p{margin:10px 0 0;color:var(--t2);max-width:62ch}
+.about p b{color:var(--t)}
+.sk{list-style:none;padding:0;margin:12px 0 0;display:flex;flex-wrap:wrap;gap:6px}
+.sk li{font-size:13px;padding:5px 10px;border-radius:8px;background:var(--s2);color:var(--t2)}
+section{padding-block:72px 0}
+.sh{display:grid;gap:10px;margin-bottom:24px}
+h2{font-family:var(--f-d);font-weight:700;font-size:clamp(30px,5vw,48px);line-height:1.05;letter-spacing:-.02em;margin:0;text-wrap:balance}
+h2 span{color:var(--a)}
+.lead{color:var(--m);margin:0;max-width:62ch}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.cc{background:var(--s);border:1px solid var(--line);border-radius:18px;padding:20px 22px;display:flex;flex-direction:column;min-width:0}
+.seg{display:flex;gap:6px;flex-wrap:wrap}
+.tg{font-family:var(--f-m);font-size:10px;letter-spacing:.06em;text-transform:uppercase;padding:4px 8px;border-radius:6px}
+.tg.a{background:rgba(200,255,46,.12);color:var(--a)}
+.tg.b{background:rgba(91,108,255,.16);color:var(--a2t)}
+.tg.c{border:1px solid var(--line);color:var(--m)}
+.tg.w{background:rgba(255,170,60,.14);color:var(--w)}
+.cc h3{font-size:20px;font-weight:700;margin:14px 0 0;letter-spacing:-.01em}
+.cc .t{font-size:13px;color:var(--m);margin-top:2px}
+.hn{display:flex;align-items:baseline;gap:12px;margin-top:14px;flex-wrap:wrap}
+.hn .num{font-size:44px}
+.hn .num em{font-style:normal;color:var(--a)}
+.hn small{font-size:13px;color:var(--t2);line-height:1.3}
+.zri{margin:14px 0 0;border-top:1px solid var(--line);display:grid}
+.zri div{display:grid;grid-template-columns:70px 1fr;gap:10px;padding:10px 0;border-bottom:1px solid var(--line);font-size:14px;line-height:1.5;color:var(--t2)}
+.zri div:last-child{border:0;padding-bottom:0}
+.zri b{font-family:var(--f-m);font-weight:600;font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--m);padding-top:4px}
+.zri .it{color:var(--t)}
+.zri .it b{color:var(--a)}
+.method{margin-top:12px}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:14px}
+.st{padding:16px 14px;border-radius:12px;background:var(--s2)}
+.st .n{font-family:var(--f-d);font-weight:700;font-size:24px;color:var(--a)}
+.st h4{font-size:15px;margin:8px 0 0}
+.st p{font-size:13.5px;color:var(--t2);margin:6px 0 0}
+.dkp{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.dkp .from{font-family:var(--f-m);font-size:13px;color:var(--m);text-decoration:line-through;margin-top:10px}
+.dkp .num{font-size:clamp(30px,4vw,40px);color:var(--a);margin-top:4px}
+.flow{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:24px}
+.flow .step{border-top:2px solid var(--a);padding-top:12px}
+.flow h4{font-size:16px;margin:6px 0 0}
+.flow p{font-size:14px;color:var(--t2);margin:6px 0 0}
+.chart{margin-top:24px}
+.bars{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(10px,3vw,28px);align-items:end;height:240px;margin-top:16px}
+.bar{display:flex;flex-direction:column;justify-content:flex-end;height:100%;text-align:center;min-width:0}
+.bar b{font-family:var(--f-d);font-size:clamp(14px,2.4vw,20px);margin-bottom:8px;font-variant-numeric:tabular-nums}
+.bar i{display:block;border-radius:8px 8px 4px 4px;background:#2E3238}
+.bar.on i{background:var(--a)}
+.bar.blue i{background:var(--a2)}
+.bar small{font-size:12px;color:var(--m);margin-top:8px}
+.quote{margin-top:22px;border-left:3px solid var(--a);padding:4px 0 4px 16px;color:var(--t2);max-width:62ch}
+.fn{font-size:12px;color:var(--m);margin-top:12px}
+.contact{background:var(--a);color:var(--a-ink);border-radius:22px;padding:28px;display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:20px;align-items:center}
+.contact .fio{font-family:var(--f-d);font-weight:700;font-size:22px;line-height:1.15}
+.contact .lbl{font-family:var(--f-m);font-size:11px;letter-spacing:.08em;text-transform:uppercase;opacity:.65}
+.contact .v{font-size:18px;font-weight:600;margin-top:4px;user-select:all;overflow-wrap:anywhere}
+.copy{margin-top:8px;font:600 12px var(--f-b);background:var(--a-ink);color:var(--a);border:0;border-radius:8px;padding:6px 10px;cursor:pointer}
+footer{padding-block:28px 40px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media (max-width:760px){
+  .kpis,.about,.g2,.contact{grid-template-columns:1fr}
+  .steps{grid-template-columns:1fr 1fr}
+  .dkp,.flow{grid-template-columns:1fr}
+  section{padding-block:56px 0}
+}
+@media (max-width:420px){.steps{grid-template-columns:1fr}.zri div{grid-template-columns:1fr;gap:2px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top"><div class="mono"><span class="dot"></span>Портфолио · Growth-маркетинг · 2026</div><div class="mono">Новосибирск / удалённо</div></div>
+
+  <div class="hero">
+    <h1>Артём<br>Карлов<span>.</span></h1>
+    <div class="chips"><span class="chip on">Growth-маркетолог</span><span class="chip">Рост выручки</span><span class="chip">Средний чек</span><span class="chip">Трафик и конверсия</span></div>
+    <div class="cta">
+      <a class="btn pri" href="https://t.me/OVpike" target="_blank" rel="noopener">Написать в Telegram</a>
+      <a class="btn" href="#cases">Смотреть кейсы</a>
+    </div>
+  </div>
+
+  <div class="kpis">
+    <div class="tile big">
+      <div class="mono">Главный результат</div>
+      <div class="num">×2,9</div>
+      <div class="cap"><b>Оборот селлера одежды: 45 000 → 130 000 ₽</b><br>через SEO, AI-автоматизацию и новый канал трафика</div>
+      <svg class="spark" viewBox="0 0 300 70" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="g" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#C8FF2E" stop-opacity=".35"/><stop offset="1" stop-color="#C8FF2E" stop-opacity="0"/></linearGradient></defs><path d="M0 62 L40 58 L80 60 L120 50 L160 44 L200 34 L240 22 L300 4 L300 70 L0 70Z" fill="url(#g)"/><path d="M0 62 L40 58 L80 60 L120 50 L160 44 L200 34 L240 22 L300 4" fill="none" stroke="#C8FF2E" stroke-width="2.5"/></svg>
+    </div>
+    <div class="side">
+      <div class="tile"><div class="mono">Кальянная · чек</div><div class="num">+73%</div><div class="cap">средний чек 1 300 → 2 250 ₽</div></div>
+      <div class="tile"><div class="mono">Магазин сумок · акция</div><div class="num">+130%</div><div class="cap">неделя акции к неделе без акции, каждый месяц</div></div>
+    </div>
+  </div>
+
+  <div class="about">
+    <div class="tile"><div class="mono">Обо мне</div>
+      <p>Ищу <b>рычаг роста в цифрах</b> и докручиваю его до результата. Работаю с малым бизнесом: от анализа ниши и юнит-экономики до запуска рекламы. Студент 3 курса (маркетинг), за плечами <b>продажи в EWA Product и TIENS</b> и 2 собственных запуска в growth-комьюнити «1%».</p></div>
+    <div class="tile"><div class="mono">Хард-скиллы</div>
+      <ul class="sk"><li>Таргет VK / TG / TikTok</li><li>SEO</li><li>AI-автоматизация</li><li>Юнит-экономика</li><li>A/B-тесты</li><li>Копирайтинг</li><li>UX/UI · Figma</li><li>Email · Unisender</li></ul></div>
+  </div>
+
+  <section id="cases">
+    <div class="sh">
+      <div class="mono">Кейсы · рост действующего бизнеса</div>
+      <h2>Рост в цифрах:<br><span>4 бизнеса, 4 рычага</span></h2>
+      <p class="lead">Задача → решение → итог. Метка показывает сегмент и сильную сторону кейса.</p>
+    </div>
+    <div class="g2">
+      <article class="cc"><div class="seg"><span class="tg a">Анализ ниши</span><span class="tg b">B2C</span><span class="tg c">HoReCa</span></div>
+        <h3>Fumo Lounge</h3><div class="t">Кальянная · Новосибирск</div>
+        <div class="hn"><div class="num">+73<em>%</em></div><small>средний чек<br>1 300 → 2 250 ₽</small></div>
+        <div class="zri"><div><b>Задача</b><span>3–4 гостя, чек 1 300 ₽, на грани окупаемости. Реклама табака запрещена (ФЗ-15).</span></div>
+          <div><b>Решение</b><span>Меню-книжка на каждом столе и расширенный ассортимент. Бартер с барбершопом из того же здания.</span></div>
+          <div class="it"><b>Итог</b><span>Чек 2 250 ₽, гостей 7, появились постоянные гости. <a href="#fumo">Разбор ниже</a></span></div></div></article>
+      <article class="cc"><div class="seg"><span class="tg a">Хард-скиллы</span><span class="tg b">B2C</span><span class="tg c">E-commerce</span></div>
+        <h3>Селлеры на фрилансе</h3><div class="t">Одежда · SEO · YouTube · AI</div>
+        <div class="hn"><div class="num">×2,<em>9</em></div><small>оборот селлера одежды<br>45 → 130 тыс. ₽</small></div>
+        <div class="zri"><div><b>Задача</b><span>Вырастить продажи частных селлеров без большого рекламного бюджета.</span></div>
+          <div><b>Решение</b><span>SEO и сайт, AI-автоматизация, продвижение на YouTube.</span></div>
+          <div class="it"><b>Итог</b><span>SEO +50%, AI открыл новый канал (+120%), конверсия YouTube +8%.</span></div></div></article>
+      <article class="cc"><div class="seg"><span class="tg a">Поведенческий фактор</span><span class="tg b">B2C</span><span class="tg c">Ритейл</span></div>
+        <h3>КЕНГУРУ</h3><div class="t">Магазин сумок и рюкзаков</div>
+        <div class="hn"><div class="num">+130<em>%</em></div><small>неделя акции<br>к неделе без акции</small></div>
+        <div class="zri"><div><b>Задача</b><span>Поднять продажи рюкзаков у студентов колледжей.</span></div>
+          <div><b>Решение</b><span>Акция первой недели месяца, VK-таргет с инфографикой под поведение ЦА, наружка 80×50, статусы WhatsApp.</span></div>
+          <div class="it"><b>Итог</b><span>+130% в неделю акции, повторяется каждый месяц.</span></div></div></article>
+      <article class="cc"><div class="seg"><span class="tg a">AI в продажах</span><span class="tg b">B2C</span><span class="tg c">Мебель</span></div>
+        <h3>Студия кухонь</h3><div class="t">Новосибирск · средний сегмент</div>
+        <div class="hn"><div class="num">5 <em>мин</em></div><small>3D-визуал кухни<br>прямо на замере</small></div>
+        <div class="zri"><div><b>Задача</b><span>Клиент ждёт эскиз от дизайнера и «остывает» между замером и договором.</span></div>
+          <div><b>Решение</b><span>AI-шаблон вместо дизайнера: 3D-картинка кухни клиента за 5 минут во время замера.</span></div>
+          <div class="it"><b>Итог</b><span>Запущен A/B-тест «замер → договор»: с визуалом против без.</span></div></div></article>
+    </div>
+  </section>
+
+  <section>
+    <div class="sh">
+      <div class="mono">Кейсы · запуски с нуля</div>
+      <h2>Запуски с нуля:<br><span>минимум бюджета</span></h2>
+      <p class="lead">Проекты, где не было ни трафика, ни клиентов, только ниша и гипотеза.</p>
+    </div>
+    <div class="g2">
+      <article class="cc"><div class="seg"><span class="tg a">Нестандартное мышление</span><span class="tg b">B2C</span><span class="tg c">Свой бренд</span></div>
+        <h3>Virgin</h3><div class="t">Бренд одежды · кастом ручной работы</div>
+        <div class="hn"><div class="num">≤10<em>к</em></div><small>₽ в месяц<br>на продвижение</small></div>
+        <div class="zri"><div><b>Задача</b><span>Запустить бренд одежды без навыков шитья и с минимальным бюджетом.</span></div>
+          <div><b>Решение</b><span>Кастом по многоразовым трафаретам, AI-фото вместо фотографа, упаковка как опыт.</span></div>
+          <div class="it"><b>Итог</b><span>Бренд запущен, открыт предзаказ, маржа 50%.</span></div></div></article>
+      <article class="cc"><div class="seg"><span class="tg a">Стратегия запуска</span><span class="tg b">B2C</span><span class="tg c">Услуги</span><span class="tg w">В работе</span></div>
+        <h3>Ритуальное агентство</h3><div class="t">Мытищи · Московская область</div>
+        <div class="hn"><div class="num">0→<em>1</em></div><small>запуск без имени,<br>сайта и клиентов</small></div>
+        <div class="zri"><div><b>Задача</b><span>Вывести на рынок агентство в чувствительной нише с плотной конкуренцией.</span></div>
+          <div><b>Решение</b><span>Маркетинг-план продвижения, прототип сайта и ТЗ, SEO-статьи под поисковый спрос.</span></div>
+          <div class="it"><b>Итог</b><span>План и прототип сайта готовы, идёт запуск.</span></div></div></article>
+    </div>
+    <div class="tile method">
+      <div class="mono">Как я ищу рычаг роста</div>
+      <div class="steps">
+        <div class="st"><div class="n">01</div><h4>Цифры и ниша</h4><p>Конкуренты, чек, поток, юнит-экономика.</p></div>
+        <div class="st"><div class="n">02</div><h4>Узкое место</h4><p>Где бизнес теряет деньги: трафик, конверсия или чек.</p></div>
+        <div class="st"><div class="n">03</div><h4>Гипотеза и тест</h4><p>Дешёвый тест: A/B, недельная акция, бартер.</p></div>
+        <div class="st"><div class="n">04</div><h4>Масштаб</h4><p>Что сработало, то в систему и каждый месяц.</p></div>
+      </div>
+    </div>
+    <div class="g2" style="margin-top:12px">
+      <div class="tile"><div class="mono">Опыт по сегментам</div>
+        <div class="seg" style="margin-top:12px"><span class="tg b">B2C · 6 кейсов</span><span class="tg c">HoReCa</span><span class="tg c">E-com</span><span class="tg c">Ритейл</span><span class="tg c">Мебель</span><span class="tg c">Fashion</span><span class="tg c">Услуги</span></div>
+        <p class="cap" style="margin-top:12px">Цель: <b>B2B-growth</b>. Длинный цикл сделки, лидогенерация, работа с отделом продаж. Опыт продаж в EWA Product и TIENS — база для этого.</p></div>
+      <div class="tile"><div class="mono">Учусь сейчас · 3 курс маркетинга</div>
+        <ul class="sk"><li>Позиционирование</li><li>Бренд-платформа</li><li>Антикризисный PR</li><li>Сегментация ЦА</li><li>B2B-маркетинг</li><li>Growth-гипотезы</li></ul>
+        <p class="cap" style="margin-top:12px">Ежедневная практика: разбор реальных кейсов и growth-задач.</p></div>
+    </div>
+  </section>
+
+  <section id="fumo">
+    <div class="sh">
+      <div class="mono">Разбор кейса · анализ ниши · B2C</div>
+      <h2>Кальянная на грани<br>окупаемости → <span>×3,5 выручки</span></h2>
+      <p class="lead">5 конкурентов рядом, самая низкая цена в районе и запрет на рекламу продукта (ФЗ-15). Демпинговать дальше некуда, значит, растить нужно чек и поток.</p>
+    </div>
+    <div class="dkp">
+      <div class="tile"><div class="mono">Средний чек</div><div class="from">1 300 ₽</div><div class="num">2 250 ₽</div><div class="cap">+73%</div></div>
+      <div class="tile"><div class="mono">Гостей в среднем</div><div class="from">3–4</div><div class="num">7</div><div class="cap">×2 и база постоянных</div></div>
+      <div class="tile"><div class="mono">Выручка потока*</div><div class="from">~4 550 ₽</div><div class="num">~15 750 ₽</div><div class="cap">≈ ×3,5</div></div>
+    </div>
+    <div class="flow">
+      <div class="step"><div class="mono">Инсайт</div><h4>Чек ниже рынка</h4><p>Гость брал только кальян, чай — каждый второй. Цена уже минимальная, значит деньги в допродаже.</p></div>
+      <div class="step"><div class="mono">Решение</div><h4>Меню-книжка на столе</h4><p>Собрал меню под ключ и расширил ассортимент. Меню стоит книжкой, гость всегда берёт его в руки.</p></div>
+      <div class="step"><div class="mono">Трафик</div><h4>Бартер с соседом</h4><p>Барбершоп в том же здании, та же ЦА. Бартерное предложение и стратегия удержания постоянных гостей.</p></div>
+    </div>
+    <div class="tile chart">
+      <div class="mono">До → после</div>
+      <div class="bars" role="img" aria-label="Средний чек вырос с 1300 до 2250 рублей, гостей стало 7 вместо 3–4">
+        <div class="bar"><b>1 300</b><i style="height:58%"></i><small>Чек до, ₽</small></div>
+        <div class="bar on"><b>2 250</b><i style="height:100%"></i><small>Чек после, ₽</small></div>
+        <div class="bar"><b>3–4</b><i style="height:30%"></i><small>Гостей до</small></div>
+        <div class="bar blue"><b>7</b><i style="height:60%"></i><small>Гостей после</small></div>
+      </div>
+    </div>
+    <p class="quote">Теперь каждый гость берёт чай, а к нему снеки. Рост дала не реклама, а меню и правильный сосед.</p>
+    <p class="fn">* расчёт: гости × средний чек</p>
+  </section>
+
+  <section id="contacts">
+    <div class="contact">
+      <div class="fio">Карлов Артём<br>Владимирович</div>
+      <div><div class="lbl">Почта</div><div class="v" id="em">rons8375@gmail.com</div><button class="copy" type="button" data-copy="em">Скопировать</button></div>
+      <div><div class="lbl">Telegram · WhatsApp · VK</div><div class="v" id="ph">+7 988 417-04-34</div><button class="copy" type="button" data-copy="ph">Скопировать</button></div>
+    </div>
+  </section>
+
+  <footer><div class="mono">Артём Карлов · Growth-маркетолог</div><div class="mono">Telegram @OVpike</div></footer>
+</div>
+
+<script>
+document.querySelectorAll('.copy').forEach(function(b){
+  b.addEventListener('click',function(){
+    var el=document.getElementById(b.dataset.copy), txt=el.textContent.trim();
+    function sel(){try{var r=document.createRange();r.selectNodeContents(el);var s=getSelection();s.removeAllRanges();s.addRange(r);}catch(e){}}
+    function done(){b.textContent='Скопировано';setTimeout(function(){b.textContent='Скопировать'},1600)}
+    try{navigator.clipboard.writeText(txt).then(done,function(){sel()})}catch(e){sel()}
+  });
+});
+</script>
+</body>
+</html>
